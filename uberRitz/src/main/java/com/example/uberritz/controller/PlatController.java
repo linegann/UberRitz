@@ -61,6 +61,7 @@ public class PlatController {
      * @param plat - The plat object updated
      * @return
      */
+    /*
     @PutMapping("/plat/{id}")
     public Plat updatePlat(@PathVariable("id") final Long id, @RequestBody Plat plat) {
         Optional<Plat> p = platService.getPlat(id);
@@ -81,7 +82,7 @@ public class PlatController {
             return null;
         }
     }
-
+    */
 
     /**
      * Delete - Delete a plat
