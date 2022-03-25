@@ -27,5 +27,20 @@ public class Plat {
     public int getPrix(){
         return this.prix;
     }
-    
+
+    public void setPrix(int newPrix){
+        this.prix = newPrix;
+    }
+
+    public String getNom(){
+        return this.nom;
+    }
+
+    public void setNom(String newName){
+        this.nom = newName;
+    }
+
+
+
+
 }
