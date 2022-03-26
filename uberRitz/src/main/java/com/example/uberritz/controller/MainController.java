@@ -27,5 +27,23 @@ public class MainController {
 
 		return "login";
 	}
+
+	@RequestMapping(value = { "/queue" }, method = RequestMethod.GET)
+	public String queue(Model model) {
+
+		return "queue";
+	}
+
+	@RequestMapping(value = { "/menumidi" }, method = RequestMethod.GET)
+	public String menumidi(Model model) {
+
+		return "menumidi";
+	}
+
+	@RequestMapping(value = { "/menusoir" }, method = RequestMethod.GET)
+	public String menusoir(Model model) {
+
+		return "menusoir";
+	}
     
 }
